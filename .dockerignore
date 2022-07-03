@@ -1,0 +1,5 @@
+Dockerfile
+config/
+webdav/
+.gitignore
+docker-compose.yml

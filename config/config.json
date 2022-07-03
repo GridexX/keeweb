@@ -1,0 +1,23 @@
+{
+  "settings": {
+    "theme": "fb",
+    "autoSave": true,
+    "autoSaveInterval": 1,
+    "canExportXml": false,
+    "locale": "en",
+    "canOpen": false,
+    "canOpenDemo": false,
+    "canOpenSettings": true,
+    "canCreate": false,
+    "canImportXml": false,
+    "dropbox": false,
+    "webdav": true,
+    "gdrive": false,
+    "onedrive": false
+  },
+  "files": [{
+      "storage": "webdav",
+      "name": "Database",
+      "path": "/webdav/database.kdbx"
+  }]
+}
