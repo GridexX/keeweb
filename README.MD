@@ -5,6 +5,8 @@
 # Keeweb
 
 A self-hosted [Keeweb](https://github.com/keeweb/keeweb) implementation.
+
+![Docker build](https://github.com/GridexX/keeweb/actions/workflows/docker.yml/badge.svg)
 </div>
 
 
@@ -32,16 +34,16 @@ To build the application, you need to have the following packages installed:
 1. You can customize the configuration of Keeweb by editing the `config.json` file. Check the [documentation](https://github.com/keeweb/keeweb/wiki/Configuration#json-app-config) for more information.
 1. Your applicatiion is ready 🚀 Launch it with the following command:
    ```bash
-   docker run -d -p 80:80 -p 443:443 -v "$PWD":/var/www/html gridexx/keeweb:1.0.0
+   docker run -d -p 80:80 -p 443:443 -v "$PWD":/var/www/html gridexx/keeweb
    ```
-1. Open your browser and go to http://localhost
+1. Open your browser and go to http://localhost, you should see the Keeweb frontend page 😃.
 
 
 ---
 
 ### Sources
-https://www.digitalocean.com/community/tutorials/how-to-configure-webdav-access-with-apache-on-ubuntu-20-04  
-https://github.com/keeweb/keeweb  
-https://www.zaine.me/posts/keeweb-passwd-manager/
+- https://www.digitalocean.com/community/tutorials/how-to-configure-webdav-access-with-apache-on-ubuntu-20-04  
+- https://github.com/keeweb/keeweb  
+- https://www.zaine.me/posts/keeweb-passwd-manager/
 
 *&copy; Created by GridexX with 🐳 Docker and 🤟 passion*
